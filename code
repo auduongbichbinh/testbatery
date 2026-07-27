@@ -6,9 +6,9 @@
 $xmlPath = "$env:TEMP\batteryreport.xml"
 powercfg /batteryreport /xml /output $xmlPath | Out-Null
 
-Write-Host "`n  bBattery - Kiem tra nhanh do chai pin cua may tinh Windows" -ForegroundColor Cyan
-Write-Host "  Created by mhqb365.com" -ForegroundColor Cyan
-Write-Host "  Open source github.com/mhqb365/bbattery" -ForegroundColor Cyan
+Write-Host "`n  nghiaBattery - Kiem tra nhanh do chai pin cua may tinh Windows" -ForegroundColor Cyan
+Write-Host "  Created by www.nghiait.com" -ForegroundColor Cyan
+Write-Host "  Open source https://github.com/auduongbichbinh/testbatery" -ForegroundColor Cyan
 # Write-Host ("  " + ("-" * 60)) -ForegroundColor Gray
 
 $timeNow = Get-Date -Format 'HH:mm:ss dd/MM/yyyy'
